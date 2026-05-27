@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# Compiled executable
+game
+
+# Object files and build artifacts
+*.o
+*.out
+*.obj
+
+# Build directories
+build/
+bin/
+
+# VS Code (optional — some people keep these, some don't)
+.vscode/
+
+# OS clutter
+.DS_Store
+EOF
