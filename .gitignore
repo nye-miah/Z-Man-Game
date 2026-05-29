@@ -2,6 +2,9 @@ cat > .gitignore << 'EOF'
 # Compiled executable
 game
 
+User-Specific Settings
+controls.cfg
+
 # Object files and build artifacts
 *.o
 *.out
